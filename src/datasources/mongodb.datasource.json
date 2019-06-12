@@ -1,0 +1,10 @@
+{
+  "name": "mongodb",
+  "connector": "mongodb",
+  "url": "mongodb+srv://admin:admin@cluster0-wocbs.mongodb.net/test?retryWrites=true&w=majority",
+  "host": "",
+  "port": 0,
+  "user": "admin",
+  "password": "admin",
+  "database": ""
+}
