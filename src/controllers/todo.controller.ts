@@ -51,6 +51,7 @@ export class TodoController {
     return await this.todoRepository.count(where);
   }
 
+  /*
   @get('/todos', {
     responses: {
       '200': {
@@ -63,12 +64,13 @@ export class TodoController {
       },
     },
   })
+
   async find(
     @param.query.object('filter', getFilterSchemaFor(Todo)) filter?: Filter,
   ): Promise<Todo[]> {
     return await this.todoRepository.find(filter);
   }
-
+  */
   @patch('/todos', {
     responses: {
       '200': {
